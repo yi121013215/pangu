@@ -127,4 +127,7 @@ public interface ErrorCodeConstants {
     ErrorCode OAUTH2_CLIENT_NOT_EXISTS = new ErrorCode(1002020000, "OAuth2 客户端不存在");
     ErrorCode OAUTH2_CLIENT_EXISTS = new ErrorCode(1002020001, "OAuth2 客户端编号已存在");
 
+    // ========== 密钥管理 1002021000 =========
+    ErrorCode BIT_LOCKER_SECRET_NOT_EXISTS = new ErrorCode(1002021000, "密钥不存在");
+    ErrorCode BIT_LOCKER_SECRET_EXISTS = new ErrorCode(1002021001, "密钥不存在");
 }
